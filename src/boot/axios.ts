@@ -1,7 +1,8 @@
 import { boot } from 'quasar/wrappers'
 import axios from 'axios'
+import "dotenv/config"
 
-const api = axios.create({ baseURL: 'http://localhost:3000' });
+const api = axios.create({ baseURL: process.env.SERVER_URL });
 
 api.interceptors.request.use((config) => {
   if (localStorage.getItem('access_token') && config.headers) {
