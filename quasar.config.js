@@ -12,6 +12,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 
+const { env } = require('process');
 const { configure } = require('quasar/wrappers');
 
 module.exports = configure(function (ctx) {

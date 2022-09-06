@@ -1,6 +1,5 @@
 import { boot } from 'quasar/wrappers'
 import axios from 'axios'
-import "dotenv/config"
 
 const api = axios.create({ baseURL: process.env.SERVER_URL });
 
