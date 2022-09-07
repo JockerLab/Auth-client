@@ -1,6 +1,6 @@
 # Auth Client (auth-client)
 
-Auth client app
+Actual application link: https://main--effortless-liger-22f764.netlify.app/#/
 
 ## Install the dependencies
 ```bash
