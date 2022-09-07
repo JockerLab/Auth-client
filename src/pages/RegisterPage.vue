@@ -1,16 +1,16 @@
 <template>
     <q-page class="row items-center justify-evenly">
-      <register-component></register-component>
+        <register-component></register-component>
     </q-page>
-  </template>
+</template>
   
-  <script lang="ts">
-  import RegisterComponent from 'components/RegisterComponent.vue';
-  import { defineComponent } from 'vue';
-  
-  export default defineComponent({
+<script lang="ts">
+import RegisterComponent from 'components/RegisterComponent.vue';
+import { defineComponent } from 'vue';
+
+export default defineComponent({
     name: 'RegisterPage',
     components: { RegisterComponent },
-  });
-  </script>
+});
+</script>
   
